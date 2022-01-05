@@ -48,7 +48,22 @@ html, body {
 
 .button-container {
     position: absolute;
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
 }
+
+#reset-camera {
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    opacity: 0;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0%;
+    z-index: 11;
+  }
 
 #loading-background {
     right: 0;
@@ -62,6 +77,10 @@ html, body {
 
 #loading-background.fade-out {
     opacity: 0;
+}
+
+#loading-background.fade-in {
+    opacity: 1;
 }
 
 #loading-video {
@@ -100,23 +119,44 @@ html, body {
 }
 
 #button-text {
-    font-family: Avenir, Arial, Helvetica, sans-serif;
-    font-size: 15px;
     color: #ffffff;
     padding: 10px;
-    font-weight: 600;
 }
 
-#reset-camera {
-    height: 50px;
-    width: 50px;
-    background-color: #bbb;
-    opacity: 0;
-    border-radius: 50%;
-    display: inline-block;
+#ending-scene {
     position: absolute;
-    bottom: 0%;
-    z-index: 11;
-  }
+	z-index: 12;
+ 	transition: 1s opacity;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    flex-wrap: wrap;
+}
+
+#to-beginning {
+    width: 150px;
+	height: 40px;
+    flex:1
+}
+
+#to-beginning-text {
+    color: #ffffff;
+    padding: 10px;
+}
+
+#to-website {
+    flex: 1;
+    width: 150px;
+	height: 40px;
+    margin-left: 20px;
+}
+
+#to-website-text {
+    color: #313E53;
+    padding-top: 10px;
+    padding-left: 28px;
+}
 
 /*# sourceMappingURL=main.css.map*/
