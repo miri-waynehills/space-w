@@ -180,7 +180,7 @@ https://velog.io/@commi1106/%ED%95%B4%EC%83%81%EB%8F%84%EC%97%90-%EB%94%B0%EB%9D
     }
 } */
 
-@media screen and (min-width : 550px) and (max-width : 767px) {
+@media screen and (min-width : 550px) and (max-width : 767px) and (orientation : portrait ) {
     .main-title {
         margin-left: 5px;
         font-size: 10px;
@@ -194,7 +194,7 @@ https://velog.io/@commi1106/%ED%95%B4%EC%83%81%EB%8F%84%EC%97%90-%EB%94%B0%EB%9D
     }
 }
 
-@media screen and (min-width : 768px) and (max-width : 1365px) {
+@media screen and (min-width : 768px) and (max-width : 1365px) and (orientation : portrait ) {
     .main-title {
         margin-left: 5px;
         font-size: 12px;
