@@ -166,75 +166,90 @@ html, body {
 /* 참고사이트
 https://velog.io/@commi1106/%ED%95%B4%EC%83%81%EB%8F%84%EC%97%90-%EB%94%B0%EB%9D%BC-%EB%8B%AC%EB%9D%BC%EC%A7%80%EB%8A%94-%EC%BA%94%EB%B2%84%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0 */
 
-/* @media screen and (max-device-width: 320px){
+@media screen and (min-width : 320px) and (max-width : 799px){
     .main-title {
         margin-left: 5px;
         font-size: 10px;
-        width: 190px;
+        width: 200px;
     }
     .main-body {
-        margin-top: 23px;
+        margin-top: 20px;
         margin-left: 5px;
-        font-size: 7px;
-        width: 190px;
+        font-size: 7.5px;
+        width: 200px;
     }
-} */
+}
 
-@media screen and (min-width : 550px) and (max-width : 767px) and (orientation : portrait ) {
+@media screen and (min-width : 800px) and (max-width : 1439px) {
+    .main-title {
+        margin-left: 8px;
+        font-size: 14px;
+        width: 290px;
+    }
+    .main-body {
+        margin-top:12px;
+        margin-left: 5px;
+        font-size: 10.5px;
+        font-weight: 100;
+        width: 290px;
+    }
+}
+
+@media screen and (min-width : 1440px) and (max-width : 1919px) {
     .main-title {
         margin-left: 5px;
-        font-size: 10px;
-        width: 190px;
+        font-size: 20px;
+        width: 400px;
     }
     .main-body {
-        margin-top: 23px;
+        margin-top: -8px;
         margin-left: 5px;
-        font-size: 7px;
-        width: 190px;
+        font-size: 14px;
+        width: 400px;
     }
 }
 
-@media screen and (min-width : 768px) and (max-width : 1365px) and (orientation : portrait ) {
-    .main-title {
-        margin-left: 5px;
-        font-size: 12px;
-        width: 250px;
-    }
-    .main-body {
-        margin-top: 15px;
-        margin-left: 5px;
-        font-size: 9.5px;
-        width: 250px;
-    }
-}
-
-@media screen and (min-width : 1366px) and (max-width : 1600px) {
-    /* .main-title {
-        margin-left: 5px;
-        font-size: 12px;
-        width: 250px;
-    }
-    .main-body {
-        margin-top: 15px;
-        margin-left: 5px;
-        font-size: 9.5px;
-        width: 250px;
-    } */
-}
-
-@media screen and (min-width : 1601px) {
+@media screen and (min-width : 1920px) and (max-width : 2304px) {
     .main-title {
         margin-left: 5px;
         font-size: 28px;
-        width: 450px;
+        width: 600px;
     }
     .main-body {
-        margin-top: 40px;
-        margin-left: 0px;
-        font-size: 16px;
-        width: 450px;
+        margin-top: 15px;
+        margin-left: 5px;
+        font-size: 19px;
+        width: 600px;
         height: 200px;
-        font-weight: 100;
+    }
+}
+
+@media screen and (min-width : 2305px) and (max-width : 2880px) {
+    .main-title {
+        margin-left: 5px;
+        font-size: 35px;
+        width: 650px;
+    }
+    .main-body {
+        margin-left: 5px;
+        font-size: 23px;
+        width: 650px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width : 2881px) {
+    .main-title {
+        margin-left: 5px;
+        font-size: 50px;
+        width: 1000px;
+    }
+    .main-body {
+        margin-left: 5px;
+        margin-top: -10px;
+        font-size: 32px;
+        width: 1000px;
+        height: 250px;
     }
 }
 
