@@ -5,7 +5,7 @@
 }
 
 html, body {
-    width: 100%
+    width: device-width;
 }
 .webgl
 {
@@ -14,7 +14,7 @@ html, body {
     left: 0;
     outline: none;
     z-index: 1;
-    width: 100%;
+    width: device-width;
     /* background: #ff87cf; */
 }
 
