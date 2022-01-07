@@ -171,6 +171,7 @@ https://velog.io/@commi1106/%ED%95%B4%EC%83%81%EB%8F%84%EC%97%90-%EB%94%B0%EB%9D
         margin-left: 5px;
         font-size: 10px;
         width: 200px;
+        color: #ffffff;
     }
     .main-body {
         margin-top: 20px;
@@ -185,6 +186,7 @@ https://velog.io/@commi1106/%ED%95%B4%EC%83%81%EB%8F%84%EC%97%90-%EB%94%B0%EB%9D
         margin-left: 8px;
         font-size: 14px;
         width: 290px;
+        color: #f00000;
     }
     .main-body {
         margin-top:12px;
@@ -200,6 +202,7 @@ https://velog.io/@commi1106/%ED%95%B4%EC%83%81%EB%8F%84%EC%97%90-%EB%94%B0%EB%9D
         margin-left: 5px;
         font-size: 20px;
         width: 400px;
+        color: #00f000;
     }
     .main-body {
         margin-top: -8px;
@@ -214,6 +217,7 @@ https://velog.io/@commi1106/%ED%95%B4%EC%83%81%EB%8F%84%EC%97%90-%EB%94%B0%EB%9D
         margin-left: 5px;
         font-size: 28px;
         width: 600px;
+        color: #0000f0;
     }
     .main-body {
         margin-top: 15px;
@@ -221,6 +225,7 @@ https://velog.io/@commi1106/%ED%95%B4%EC%83%81%EB%8F%84%EC%97%90-%EB%94%B0%EB%9D
         font-size: 19px;
         width: 600px;
         height: 200px;
+        color: #00000f;
     }
 }
 
