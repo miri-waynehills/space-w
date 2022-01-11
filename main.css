@@ -39,6 +39,17 @@ html, body {
     margin-left: 0px;
 }
 
+.video-container-class {
+    background-color: #000000;
+}
+
+.video-class {
+    width: auto;
+    height: auto;
+    border: thick double #189DD1;
+    /* border: thick double rgba(0, 72, 120, 1.0); */
+}
+
 .position-base {
     position: absolute;
     z-index: 10;
@@ -165,28 +176,30 @@ html, body {
 
 @media screen and (min-width : 320px) and (max-width : 799px){
     .main-title {
-        /* margin-left: 5px; */
         font-size: 10px;
-        width: 130px;
+        width: 160px;
     }
     .main-body {
-        margin-top: 31px;
-        /* margin-left: 5px; */
-        font-size: 5px;
-        width: 130px;
+        margin-top: 25px;
+        font-size: 6px;
+        width: 160px;
+    }
+    .video-class {
+        width: 280px;
+        height: 150px;
     }
 }
 
 @media screen and (min-width : 800px) and (max-width : 1439px) {
     .main-title {
         font-size: 14px;
-        width: 200px;
+        width: 225px;
     }
     .main-body {
-        margin-top: 20px;
-        font-size: 7.5px;
+        margin-top: 12px;
+        font-size: 8.5px;
         font-weight: 100;
-        width: 200px;
+        width: 225px;
     }
     .video-class {
         width: 400px;
@@ -196,59 +209,68 @@ html, body {
 
 @media screen and (min-width : 1440px) and (max-width : 1919px) {
     .main-title {
-        /* margin-left: 5px; */
         font-size: 20px;
-        width: 350px;
+        width: 380px;
     }
     .main-body {
-        /* margin-top: -8px; */
-        /* margin-left: 5px; */
-        font-size: 13px;
-        width: 350px;
+        margin-top: 20px;
+        font-size: 14px;
+        width: 380px;
+        height: 150px;
+    }
+    .video-class {
+        width: 540px;
+        height: 280px;
     }
 }
 
 @media screen and (min-width : 1920px) and (max-width : 2304px) {
     .main-title {
-        /* margin-left: 5px; */
         font-size: 28px;
         width: 600px;
     }
     .main-body {
-        margin-top: 15px;
-        /* margin-left: 5px; */
-        font-size: 19px;
+        margin-top: -10px;
+        font-size: 20px;
         width: 600px;
-        height: 200px;
+        height: 150px;
+    }
+    .video-class {
+        width: 700px;
+        height: 380px;
     }
 }
 
 @media screen and (min-width : 2305px) and (max-width : 2880px) {
     .main-title {
-        /* margin-left: 5px; */
         font-size: 35px;
         width: 650px;
     }
     .main-body {
-        /* margin-left: 5px; */
         font-size: 23px;
         width: 650px;
         height: 200px;
+    }
+    .video-class {
+        width: 900px;
+        height: 500px;
     }
 }
 
 @media screen and (min-width : 2881px) {
     .main-title {
-        /* margin-left: 5px; */
         font-size: 50px;
         width: 1000px;
     }
     .main-body {
-        /* margin-left: 5px; */
         margin-top: -10px;
         font-size: 32px;
         width: 1000px;
         height: 250px;
+    }
+    .video-class {
+        width: 1300px;
+        height: 980px;
     }
 }
 
