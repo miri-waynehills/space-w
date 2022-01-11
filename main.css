@@ -25,6 +25,7 @@ html, body {
     font-weight: 600;
     color: #ffffff;
     margin-left: 0px;
+    z-index: 11 !important;
 }
 
 .main-body {
@@ -37,10 +38,12 @@ html, body {
     font-weight: 300;
     margin-top: 0px;
     margin-left: 0px;
+    z-index: 11 !important;
 }
 
 .video-container-class {
     background-color: #000000;
+    z-index: 11 !important;
 }
 
 .video-class {
@@ -52,7 +55,7 @@ html, body {
 
 .position-base {
     position: absolute;
-    z-index: 10;
+    /* z-index: 10; */
     /* opacity: 0.6; */
 }
 
@@ -88,6 +91,7 @@ html, body {
     background-color: #000000;
     opacity: 1;
  	transition: 1s opacity;
+    z-index: 12;
 }
 
 #loading-background.fade-out {
