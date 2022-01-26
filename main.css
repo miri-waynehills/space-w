@@ -53,12 +53,6 @@ html, body {
     /* border: thick double rgba(0, 72, 120, 1.0); */
 }
 
-.position-base {
-    position: absolute;
-    /* z-index: 10; */
-    /* opacity: 0.6; */
-}
-
 .loading-bar-container {
     position: absolute;
     width: 500px;
@@ -71,19 +65,17 @@ html, body {
     font-weight: 600;
 }
 
-#reset-camera {
-    height: 50px;
-    width: 50px;
-    background-color: #bbb;
-    opacity: 0;
-    border-radius: 50%;
-    display: inline-block;
+.sound-icon {
     position: absolute;
-    bottom: 0%;
+    width: 25px;
+    height: auto;
+    right: 0px;
+    margin: 20px 20px 0px 0px;
     z-index: 11;
-  }
+}
 
 #loading-background {
+    position: absolute;
     right: 0;
     bottom: 0;
     min-width: 100%;
@@ -102,13 +94,13 @@ html, body {
     opacity: 1;
 }
 
-#loading-img {
-    position: absolute;    
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%,-50%);
-    width: 100%;
-	height: auto;
+#loading-video {
+    position: absolute;
+	z-index: 11;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 #loading {
@@ -178,15 +170,39 @@ html, body {
     padding-left: 28px;
 }
 
-@media screen and (min-width : 320px) and (max-width : 799px){
+#sound-icon-unmuted {
+    visibility: visible;
+}
+
+#sound-icon-muted {
+    visibility: hidden;
+}
+
+@media screen and (min-width : 320px) and (max-width : 719px){
     .main-title {
         font-size: 10px;
-        width: 160px;
+        width: 135px;
     }
     .main-body {
-        margin-top: 25px;
-        font-size: 6px;
-        width: 160px;
+        margin-top: 30px;
+        font-size: 5px;
+        width: 135px;
+    }
+    .video-class {
+        width: 280px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width : 720px) and (max-width : 799px){
+    .main-title {
+        font-size: 11px;
+        width: 200px;
+    }
+    .main-body {
+        margin-top: 20px;
+        font-size: 7.5px;
+        width: 200px;
     }
     .video-class {
         width: 280px;
@@ -200,7 +216,7 @@ html, body {
         width: 225px;
     }
     .main-body {
-        margin-top: 12px;
+        margin-top: 18px;
         font-size: 8.5px;
         font-weight: 100;
         width: 225px;
@@ -248,11 +264,11 @@ html, body {
 @media screen and (min-width : 2305px) and (max-width : 2880px) {
     .main-title {
         font-size: 35px;
-        width: 650px;
+        width: 700px;
     }
     .main-body {
-        font-size: 23px;
-        width: 650px;
+        font-size: 25px;
+        width: 700px;
         height: 200px;
     }
     .video-class {
